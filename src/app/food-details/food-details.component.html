@@ -1,0 +1,16 @@
+<div class="col-md-12">
+  <div class="row">
+    <div class="col-md-3 col-sm-6 hero-feature" *ngFor="let food of foodDetail">
+              <p>{{products}}</p>
+                <div class="thumbnail">
+                    <h3>{{food.name}}</h3>
+                    <div class="caption">
+                        <p>
+                            <button class="btn btn-primary" (click) = "buynow(food)">Buy Now!</button>
+                            <a href="#" class="btn btn-default">More Info</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+          </div>
+</div>
